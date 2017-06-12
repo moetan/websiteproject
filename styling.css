@@ -1,0 +1,19 @@
+body{
+	
+}
+/* More changes  */
+h1{
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+	box-shadow:	0 1px 2px 0 rgba(0,0,0,0.2),
+				30px 0 0 0 #f0e800,
+				-30px 0 0 0 #f0e800;
+	transform: rotate(-3deg) skew(-3deg);
+	text-align: center;
+	
+}
+page{
+	padding: .5em .5em .5em;
+	width: 88%;
+	justify-content: center;
+}
+/* How about now? */

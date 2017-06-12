@@ -2,12 +2,20 @@
 #main-navbar {
 	background-color: #5912A1;
 }
-#main-navbar ul {
+/*#main-navbar ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+}*/
+#main-navbar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 }
 #main-navbar li{
@@ -25,4 +33,10 @@
 }
 main-navbar li.current {
 	order: 1;
+}
+/*media*/
+@media only screen and (max-width: 768px) {
+	[class*="col-"] {
+        width: 100%;
+    }
 }
