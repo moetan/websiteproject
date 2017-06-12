@@ -1,0 +1,44 @@
+/*I will use this one later
+.nav li{
+	display: inline;
+}
+.nav a{
+	display: inline-block;
+}
+nav{
+	
+}
+body > .nav {
+	overflow: auto;
+}*/
+#main-nav {
+	border:
+	background-color: ;
+	
+}
+ul.horizontal-nav {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	width: 50%;
+	margin: 0 auto;
+}
+.horizontal-nav li {
+		display:inline;
+		font-weight: bold;
+		font-variant: small caps;
+}
+.horizontal-nav li a {
+		text-decoration: none;
+		padding: 0px 10px;
+		border: 1px solid #505050;
+		background-color: #202020;
+		color: #ccf2ff;
+}
+.horizontal-nav li a:hover {
+		color: #202020;
+		background-color:#efefef;
+}
+nav {
+		text-indent: 2.0em;
+		}

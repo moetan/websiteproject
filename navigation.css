@@ -1,0 +1,28 @@
+/* nav bar using flex box*/
+#main-navbar {
+	background-color: #5912A1;
+}
+#main-navbar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#main-navbar li{
+	
+}
+#main-navbar a{
+	color: #F2E7FC;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+}
+#main-navbar a:hover {
+	color: #5912A1;
+	background-color: #F2E7FC;
+}
+main-navbar li.current {
+	order: 1;
+}
